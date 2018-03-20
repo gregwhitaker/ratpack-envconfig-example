@@ -1,5 +1,31 @@
 # ratpack-envconfig-example
 
+Example of using environment specific configuration file overrides with Ratpack.
+
+The example starts a simple webservice that returns a different hello message based on the environment in which it is running.
+
+## Running the Example
+
+1. Start the application in the default "dev" environment by running the following command:
+
+        $ ./gradlew run
+
+    Once the application has started, point your web browser to [http://localhost:5050](http://localhost:5050) to access the test page.
+    
+    You should see the following message:
+    
+        Hello User! This is the Development environment.
+        
+2. Now start the service in either the "test" or "prod" environments by setting the environment variable `RATPACK_ENVIRONMENT`:
+
+        $ RATPACK_ENVIRONMENT=test ./gradlew run
+
+    Once the application has started, point your web browser to [http://localhost:5050](http://localhost:5050) to access the test page.
+
+    You should see the following message:
+    
+       Hello User! This is the Test environment. 
+
 ## Bugs and Feedback
 For bugs, questions, and discussions please use the [Github Issues](https://github.com/gregwhitaker/ratpack-envconfig-example/issues).
 
