@@ -3,7 +3,8 @@
 
 Example of using environment specific configuration file overrides with Ratpack.
 
-The example starts a simple webservice that returns a different hello message based on the environment in which it is running.
+The example starts a simple webservice that returns a different hello message based on the environment in which it is running. The messages
+are defined in environment specific `config-{environment}.yaml` files that override the base `config.yaml`.
 
 ## Running the Example
 
