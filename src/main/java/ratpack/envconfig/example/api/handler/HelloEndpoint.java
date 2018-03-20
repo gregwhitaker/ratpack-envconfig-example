@@ -5,6 +5,9 @@ import ratpack.envconfig.example.config.HelloConfig;
 import ratpack.handling.Context;
 import ratpack.handling.Handler;
 
+/**
+ * Handler responsible for returning a hello message.
+ */
 public class HelloEndpoint implements Handler {
 
     @Inject
