@@ -1,0 +1,3 @@
+hello:
+  username: "User"
+  message: "Hello %s! This is the Development environment."
