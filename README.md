@@ -1,4 +1,5 @@
 # ratpack-envconfig-example
+[![Build Status](https://travis-ci.org/gregwhitaker/ratpack-envconfig-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/ratpack-envconfig-example)
 
 Example of using environment specific configuration file overrides with Ratpack.
 
